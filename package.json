@@ -27,8 +27,7 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s --pkg ./packages/gantt/package.json",
     "contributors:init": "all-contributors init",
     "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate",
-    "postinstall": "husky install"
+    "contributors:generate": "all-contributors generate"
   },
   "dependencies": {
     "@angular/animations": "^14.1.0",
